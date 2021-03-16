@@ -3,25 +3,126 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185346161DA216B7A641A0A7 /* Pods_themustang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FB61EF9007015EF38D1851 /* Pods_themustang.framework */; };
+		7F0A96DA2316CD3200761109 /* LeftSideBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A96D92316CD3200761109 /* LeftSideBarController.swift */; };
+		7F0A96DC2316E29400761109 /* SidebarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A96DB2316E29400761109 /* SidebarTableViewCell.swift */; };
+		7F0A96DE2316EAE200761109 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0A96DD2316EAE200761109 /* NotificationController.swift */; };
+		7F0BC58823153674008AD369 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0BC58723153674008AD369 /* HomeController.swift */; };
+		7F1113712317CB8600E203DC /* RecentOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1113702317CB8600E203DC /* RecentOrderTableViewCell.swift */; };
+		7F1113732317CBA300E203DC /* TableBookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1113722317CBA300E203DC /* TableBookingTableViewCell.swift */; };
+		7F1113742317DDA300E203DC /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FDC868523100B660029341C /* Ubuntu-B.ttf */; };
+		7F1113752317DDA600E203DC /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FDC868723100B660029341C /* Ubuntu-M.ttf */; };
+		7F1113762317DDA900E203DC /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FDC868623100B660029341C /* Ubuntu-R.ttf */; };
+		7F111378231832F300E203DC /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F111377231832F300E203DC /* HeaderTableViewCell.swift */; };
+		7F33D0A4232A524800D43034 /* TimeLineOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F33D0A3232A524800D43034 /* TimeLineOrderCell.swift */; };
+		7F42B7E32345E1AF006FB2BB /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F42B7E22345E1AE006FB2BB /* UIBarButtonItem+Badge.m */; };
+		7F42B7EA2345FDB9006FB2BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F42B7E92345FDB9006FB2BB /* GoogleService-Info.plist */; };
+		7F42B7EC23470752006FB2BB /* LogoutApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42B7EB23470752006FB2BB /* LogoutApi.swift */; };
+		7F42B7EE234707FA006FB2BB /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F42B7ED234707FA006FB2BB /* Logout.swift */; };
+		7F4483CC2320FB5B005B2BAA /* NotificationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4483CB2320FB5B005B2BAA /* NotificationApi.swift */; };
+		7F52117C231E79560078641D /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52117B231E79560078641D /* NotificationTableViewCell.swift */; };
+		7F52117E231F7E830078641D /* OrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52117D231F7E830078641D /* OrderDetailController.swift */; };
+		7F521180231F84C70078641D /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52117F231F84C70078641D /* OrderDetail.swift */; };
+		7F521182231F85620078641D /* OrderDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F521181231F85620078641D /* OrderDetailApi.swift */; };
+		7F521186231F9A6F0078641D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F521185231F9A6F0078641D /* WebKit.framework */; };
+		7F521188231FC94F0078641D /* AllRecentOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F521187231FC94F0078641D /* AllRecentOrderController.swift */; };
+		7F52118A231FDD730078641D /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F521189231FDD730078641D /* Notification.swift */; };
+		7F52118C23201D580078641D /* AllRecentTableBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F52118B23201D580078641D /* AllRecentTableBookingController.swift */; };
+		7F63423B233E0A1000309093 /* BookingDetailApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F63423A233E0A1000309093 /* BookingDetailApi.swift */; };
+		7F6649B42344894600A23244 /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6649B32344894600A23244 /* FilterController.swift */; };
+		7F6649B62344B8EC00A23244 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6649B52344B8EC00A23244 /* FilterTableViewCell.swift */; };
+		7F6649B82345126800A23244 /* BookingStatusApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6649B72345126800A23244 /* BookingStatusApi.swift */; };
+		7F6649BA234513D400A23244 /* TableBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6649B9234513D400A23244 /* TableBooking.swift */; };
+		7F73C04D23433D8D000EE975 /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73C04C23433D8D000EE975 /* PopoverController.swift */; };
+		7F73C04F23436649000EE975 /* SearchOrderApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F73C04E23436649000EE975 /* SearchOrderApi.swift */; };
+		7F84E3B523323FC100D710D9 /* TimeLineBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84E3B423323FC100D710D9 /* TimeLineBookingCell.swift */; };
+		7F84E3B723324E8E00D710D9 /* BookingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F84E3B623324E8E00D710D9 /* BookingDetailController.swift */; };
+		7F95BCF92329159C00B18533 /* TimeLineOrderHearderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95BCF82329159C00B18533 /* TimeLineOrderHearderCell.swift */; };
+		7FB00C75232BAB1000CC9F26 /* BookingApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB00C74232BAB1000CC9F26 /* BookingApi.swift */; };
+		7FC27DB32326689600E84093 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC27DB22326689600E84093 /* Order.swift */; };
+		7FC27DB52326692E00E84093 /* OrderApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC27DB42326692E00E84093 /* OrderApi.swift */; };
+		7FD5934E2318EAC6009EC4C0 /* HomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5934D2318EAC6009EC4C0 /* HomeApi.swift */; };
+		7FD593502318F1EF009EC4C0 /* RecentOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5934F2318F1EF009EC4C0 /* RecentOrder.swift */; };
+		7FD593522318F250009EC4C0 /* RecentTableBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD593512318F250009EC4C0 /* RecentTableBooking.swift */; };
+		7FD593542318F2B1009EC4C0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD593532318F2B1009EC4C0 /* Home.swift */; };
+		7FE40EFA23157E900029A5C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EF923157E900029A5C5 /* Extensions.swift */; };
+		7FE40EFC231582460029A5C5 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE40EFB231582460029A5C5 /* Error.swift */; };
+		7FEC57482313DA68008E9F5B /* LoginApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC57472313DA68008E9F5B /* LoginApi.swift */; };
+		7FEC574A2313ED7C008E9F5B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC57492313ED7C008E9F5B /* User.swift */; };
 		7FFE4BEA230EA53F00F42FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE4BE9230EA53F00F42FF7 /* AppDelegate.swift */; };
 		7FFE4BEC230EA53F00F42FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE4BEB230EA53F00F42FF7 /* ViewController.swift */; };
 		7FFE4BEF230EA53F00F42FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFE4BED230EA53F00F42FF7 /* Main.storyboard */; };
 		7FFE4BF1230EA54100F42FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FFE4BF0230EA54100F42FF7 /* Assets.xcassets */; };
 		7FFE4BF4230EA54100F42FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FFE4BF2230EA54100F42FF7 /* LaunchScreen.storyboard */; };
+		7FFE4C00230EA6EE00F42FF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE4BFF230EA6EE00F42FF7 /* Constants.swift */; };
+		7FFE4C04230EAF7800F42FF7 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFE4C03230EAF7800F42FF7 /* RadialGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7FFE4BE6230EA53F00F42FF7 /* themustang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = themustang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FB61EF9007015EF38D1851 /* Pods_themustang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_themustang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537C04C244BF8A3F9A3D5650 /* Pods-themustang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themustang.release.xcconfig"; path = "Target Support Files/Pods-themustang/Pods-themustang.release.xcconfig"; sourceTree = "<group>"; };
+		58762D172815E9AA5E677669 /* Pods-themustang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themustang.debug.xcconfig"; path = "Target Support Files/Pods-themustang/Pods-themustang.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0A96D92316CD3200761109 /* LeftSideBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideBarController.swift; sourceTree = "<group>"; };
+		7F0A96DB2316E29400761109 /* SidebarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTableViewCell.swift; sourceTree = "<group>"; };
+		7F0A96DD2316EAE200761109 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7F0BC58723153674008AD369 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7F1113702317CB8600E203DC /* RecentOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentOrderTableViewCell.swift; sourceTree = "<group>"; };
+		7F1113722317CBA300E203DC /* TableBookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBookingTableViewCell.swift; sourceTree = "<group>"; };
+		7F111377231832F300E203DC /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		7F33D0A3232A524800D43034 /* TimeLineOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineOrderCell.swift; sourceTree = "<group>"; };
+		7F42B7E02345E1AE006FB2BB /* themustang-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "themustang-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F42B7E12345E1AE006FB2BB /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Badge.h"; path = "../../untitled folder/UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		7F42B7E22345E1AE006FB2BB /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Badge.m"; path = "../../untitled folder/UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		7F42B7E82345FC3D006FB2BB /* themustangDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = themustangDebug.entitlements; sourceTree = "<group>"; };
+		7F42B7E92345FDB9006FB2BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F42B7EB23470752006FB2BB /* LogoutApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutApi.swift; sourceTree = "<group>"; };
+		7F42B7ED234707FA006FB2BB /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		7F4483CB2320FB5B005B2BAA /* NotificationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationApi.swift; sourceTree = "<group>"; };
+		7F52117B231E79560078641D /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		7F52117D231F7E830078641D /* OrderDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailController.swift; sourceTree = "<group>"; };
+		7F52117F231F84C70078641D /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		7F521181231F85620078641D /* OrderDetailApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailApi.swift; sourceTree = "<group>"; };
+		7F521185231F9A6F0078641D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7F521187231FC94F0078641D /* AllRecentOrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecentOrderController.swift; sourceTree = "<group>"; };
+		7F521189231FDD730078641D /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		7F52118B23201D580078641D /* AllRecentTableBookingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecentTableBookingController.swift; sourceTree = "<group>"; };
+		7F63423A233E0A1000309093 /* BookingDetailApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailApi.swift; sourceTree = "<group>"; };
+		7F6649B32344894600A23244 /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
+		7F6649B52344B8EC00A23244 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		7F6649B72345126800A23244 /* BookingStatusApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingStatusApi.swift; sourceTree = "<group>"; };
+		7F6649B9234513D400A23244 /* TableBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBooking.swift; sourceTree = "<group>"; };
+		7F73C04C23433D8D000EE975 /* PopoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; };
+		7F73C04E23436649000EE975 /* SearchOrderApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOrderApi.swift; sourceTree = "<group>"; };
+		7F84E3B423323FC100D710D9 /* TimeLineBookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineBookingCell.swift; sourceTree = "<group>"; };
+		7F84E3B623324E8E00D710D9 /* BookingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailController.swift; sourceTree = "<group>"; };
+		7F95BCF82329159C00B18533 /* TimeLineOrderHearderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineOrderHearderCell.swift; sourceTree = "<group>"; };
+		7FB00C74232BAB1000CC9F26 /* BookingApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingApi.swift; sourceTree = "<group>"; };
+		7FC27DB22326689600E84093 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7FC27DB42326692E00E84093 /* OrderApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderApi.swift; sourceTree = "<group>"; };
+		7FD5934D2318EAC6009EC4C0 /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
+		7FD5934F2318F1EF009EC4C0 /* RecentOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentOrder.swift; sourceTree = "<group>"; };
+		7FD593512318F250009EC4C0 /* RecentTableBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableBooking.swift; sourceTree = "<group>"; };
+		7FD593532318F2B1009EC4C0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7FDC868523100B660029341C /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
+		7FDC868623100B660029341C /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
+		7FDC868723100B660029341C /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
+		7FE40EF923157E900029A5C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7FE40EFB231582460029A5C5 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		7FEC57472313DA68008E9F5B /* LoginApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = "<group>"; };
+		7FEC57492313ED7C008E9F5B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7FFE4BE6230EA53F00F42FF7 /* The Mustang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Mustang.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFE4BE9230EA53F00F42FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FFE4BEB230EA53F00F42FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FFE4BEE230EA53F00F42FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FFE4BF0230EA54100F42FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FFE4BF3230EA54100F42FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FFE4BF5230EA54100F42FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFE4BFF230EA6EE00F42FF7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7FFE4C03230EAF7800F42FF7 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +130,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F521186231F9A6F0078641D /* WebKit.framework in Frameworks */,
+				185346161DA216B7A641A0A7 /* Pods_themustang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6C26D403A2F0D439DEA35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58762D172815E9AA5E677669 /* Pods-themustang.debug.xcconfig */,
+				537C04C244BF8A3F9A3D5650 /* Pods-themustang.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FDC868423100A7B0029341C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC868523100B660029341C /* Ubuntu-B.ttf */,
+				7FDC868723100B660029341C /* Ubuntu-M.ttf */,
+				7FDC868623100B660029341C /* Ubuntu-R.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7FEC57462313DA45008E9F5B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC57472313DA68008E9F5B /* LoginApi.swift */,
+				7FD5934D2318EAC6009EC4C0 /* HomeApi.swift */,
+				7F521181231F85620078641D /* OrderDetailApi.swift */,
+				7F4483CB2320FB5B005B2BAA /* NotificationApi.swift */,
+				7FC27DB42326692E00E84093 /* OrderApi.swift */,
+				7FB00C74232BAB1000CC9F26 /* BookingApi.swift */,
+				7F63423A233E0A1000309093 /* BookingDetailApi.swift */,
+				7F73C04E23436649000EE975 /* SearchOrderApi.swift */,
+				7F6649B72345126800A23244 /* BookingStatusApi.swift */,
+				7F42B7EB23470752006FB2BB /* LogoutApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7FFE4BDD230EA53F00F42FF7 = {
 			isa = PBXGroup;
 			children = (
 				7FFE4BE8230EA53F00F42FF7 /* themustang */,
 				7FFE4BE7230EA53F00F42FF7 /* Products */,
+				2E6C26D403A2F0D439DEA35F /* Pods */,
+				CD16E547B0063E690A388BCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7FFE4BE7230EA53F00F42FF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FFE4BE6230EA53F00F42FF7 /* themustang.app */,
+				7FFE4BE6230EA53F00F42FF7 /* The Mustang.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +195,93 @@
 		7FFE4BE8230EA53F00F42FF7 /* themustang */ = {
 			isa = PBXGroup;
 			children = (
+				7F42B7E92345FDB9006FB2BB /* GoogleService-Info.plist */,
+				7F42B7E82345FC3D006FB2BB /* themustangDebug.entitlements */,
+				7F42B7E12345E1AE006FB2BB /* UIBarButtonItem+Badge.h */,
+				7F42B7E22345E1AE006FB2BB /* UIBarButtonItem+Badge.m */,
+				7FFE4BFD230EA6AF00F42FF7 /* Model */,
+				7FFE4BFC230EA69D00F42FF7 /* View */,
+				7FFE4BFB230EA66600F42FF7 /* Controller */,
+				7FFE4BFE230EA6B600F42FF7 /* Utils */,
+				7FEC57462313DA45008E9F5B /* Services */,
+				7FDC868423100A7B0029341C /* Fonts */,
 				7FFE4BE9230EA53F00F42FF7 /* AppDelegate.swift */,
-				7FFE4BEB230EA53F00F42FF7 /* ViewController.swift */,
 				7FFE4BED230EA53F00F42FF7 /* Main.storyboard */,
 				7FFE4BF0230EA54100F42FF7 /* Assets.xcassets */,
 				7FFE4BF2230EA54100F42FF7 /* LaunchScreen.storyboard */,
 				7FFE4BF5230EA54100F42FF7 /* Info.plist */,
+				7F42B7E02345E1AE006FB2BB /* themustang-Bridging-Header.h */,
 			);
 			path = themustang;
+			sourceTree = "<group>";
+		};
+		7FFE4BFB230EA66600F42FF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE4BEB230EA53F00F42FF7 /* ViewController.swift */,
+				7F0BC58723153674008AD369 /* HomeController.swift */,
+				7F0A96D92316CD3200761109 /* LeftSideBarController.swift */,
+				7F0A96DD2316EAE200761109 /* NotificationController.swift */,
+				7F52117D231F7E830078641D /* OrderDetailController.swift */,
+				7F521187231FC94F0078641D /* AllRecentOrderController.swift */,
+				7F52118B23201D580078641D /* AllRecentTableBookingController.swift */,
+				7F84E3B623324E8E00D710D9 /* BookingDetailController.swift */,
+				7F73C04C23433D8D000EE975 /* PopoverController.swift */,
+				7F6649B32344894600A23244 /* FilterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FFE4BFC230EA69D00F42FF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE4C03230EAF7800F42FF7 /* RadialGradientView.swift */,
+				7F0A96DB2316E29400761109 /* SidebarTableViewCell.swift */,
+				7F1113702317CB8600E203DC /* RecentOrderTableViewCell.swift */,
+				7F1113722317CBA300E203DC /* TableBookingTableViewCell.swift */,
+				7F111377231832F300E203DC /* HeaderTableViewCell.swift */,
+				7F52117B231E79560078641D /* NotificationTableViewCell.swift */,
+				7F95BCF82329159C00B18533 /* TimeLineOrderHearderCell.swift */,
+				7F33D0A3232A524800D43034 /* TimeLineOrderCell.swift */,
+				7F84E3B423323FC100D710D9 /* TimeLineBookingCell.swift */,
+				7F6649B52344B8EC00A23244 /* FilterTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FFE4BFD230EA6AF00F42FF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC57492313ED7C008E9F5B /* User.swift */,
+				7FE40EFB231582460029A5C5 /* Error.swift */,
+				7FD5934F2318F1EF009EC4C0 /* RecentOrder.swift */,
+				7FD593512318F250009EC4C0 /* RecentTableBooking.swift */,
+				7FD593532318F2B1009EC4C0 /* Home.swift */,
+				7F52117F231F84C70078641D /* OrderDetail.swift */,
+				7F521189231FDD730078641D /* Notification.swift */,
+				7FC27DB22326689600E84093 /* Order.swift */,
+				7F6649B9234513D400A23244 /* TableBooking.swift */,
+				7F42B7ED234707FA006FB2BB /* Logout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FFE4BFE230EA6B600F42FF7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FFE4BFF230EA6EE00F42FF7 /* Constants.swift */,
+				7FE40EF923157E900029A5C5 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD16E547B0063E690A388BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F521185231F9A6F0078641D /* WebKit.framework */,
+				38FB61EF9007015EF38D1851 /* Pods_themustang.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFE4BF8230EA54100F42FF7 /* Build configuration list for PBXNativeTarget "themustang" */;
 			buildPhases = (
+				99CD33FA39186A3794C77E71 /* [CP] Check Pods Manifest.lock */,
 				7FFE4BE2230EA53F00F42FF7 /* Sources */,
 				7FFE4BE3230EA53F00F42FF7 /* Frameworks */,
 				7FFE4BE4230EA53F00F42FF7 /* Resources */,
+				E260D391AED84C36843BF44D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -81,7 +303,7 @@
 			);
 			name = themustang;
 			productName = themustang;
-			productReference = 7FFE4BE6230EA53F00F42FF7 /* themustang.app */;
+			productReference = 7FFE4BE6230EA53F00F42FF7 /* The Mustang.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +318,7 @@
 				TargetAttributes = {
 					7FFE4BE5230EA53F00F42FF7 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -122,21 +345,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1113762317DDA900E203DC /* Ubuntu-R.ttf in Resources */,
 				7FFE4BF4230EA54100F42FF7 /* LaunchScreen.storyboard in Resources */,
+				7F1113752317DDA600E203DC /* Ubuntu-M.ttf in Resources */,
 				7FFE4BF1230EA54100F42FF7 /* Assets.xcassets in Resources */,
+				7F1113742317DDA300E203DC /* Ubuntu-B.ttf in Resources */,
 				7FFE4BEF230EA53F00F42FF7 /* Main.storyboard in Resources */,
+				7F42B7EA2345FDB9006FB2BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99CD33FA39186A3794C77E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-themustang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E260D391AED84C36843BF44D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-themustang/Pods-themustang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-themustang/Pods-themustang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-themustang/Pods-themustang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FFE4BE2230EA53F00F42FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F52117E231F7E830078641D /* OrderDetailController.swift in Sources */,
+				7F521182231F85620078641D /* OrderDetailApi.swift in Sources */,
+				7F521180231F84C70078641D /* OrderDetail.swift in Sources */,
 				7FFE4BEC230EA53F00F42FF7 /* ViewController.swift in Sources */,
+				7F33D0A4232A524800D43034 /* TimeLineOrderCell.swift in Sources */,
+				7F111378231832F300E203DC /* HeaderTableViewCell.swift in Sources */,
+				7FE40EFA23157E900029A5C5 /* Extensions.swift in Sources */,
+				7FC27DB32326689600E84093 /* Order.swift in Sources */,
+				7F95BCF92329159C00B18533 /* TimeLineOrderHearderCell.swift in Sources */,
+				7F6649B42344894600A23244 /* FilterController.swift in Sources */,
+				7FFE4C04230EAF7800F42FF7 /* RadialGradientView.swift in Sources */,
 				7FFE4BEA230EA53F00F42FF7 /* AppDelegate.swift in Sources */,
+				7F42B7E32345E1AF006FB2BB /* UIBarButtonItem+Badge.m in Sources */,
+				7FEC57482313DA68008E9F5B /* LoginApi.swift in Sources */,
+				7F0BC58823153674008AD369 /* HomeController.swift in Sources */,
+				7F0A96DE2316EAE200761109 /* NotificationController.swift in Sources */,
+				7F6649B62344B8EC00A23244 /* FilterTableViewCell.swift in Sources */,
+				7F6649B82345126800A23244 /* BookingStatusApi.swift in Sources */,
+				7F73C04F23436649000EE975 /* SearchOrderApi.swift in Sources */,
+				7F84E3B723324E8E00D710D9 /* BookingDetailController.swift in Sources */,
+				7F1113712317CB8600E203DC /* RecentOrderTableViewCell.swift in Sources */,
+				7FD593542318F2B1009EC4C0 /* Home.swift in Sources */,
+				7FFE4C00230EA6EE00F42FF7 /* Constants.swift in Sources */,
+				7F1113732317CBA300E203DC /* TableBookingTableViewCell.swift in Sources */,
+				7FD5934E2318EAC6009EC4C0 /* HomeApi.swift in Sources */,
+				7F42B7EE234707FA006FB2BB /* Logout.swift in Sources */,
+				7F52118A231FDD730078641D /* Notification.swift in Sources */,
+				7F84E3B523323FC100D710D9 /* TimeLineBookingCell.swift in Sources */,
+				7F42B7EC23470752006FB2BB /* LogoutApi.swift in Sources */,
+				7F0A96DA2316CD3200761109 /* LeftSideBarController.swift in Sources */,
+				7F6649BA234513D400A23244 /* TableBooking.swift in Sources */,
+				7F63423B233E0A1000309093 /* BookingDetailApi.swift in Sources */,
+				7F4483CC2320FB5B005B2BAA /* NotificationApi.swift in Sources */,
+				7F73C04D23433D8D000EE975 /* PopoverController.swift in Sources */,
+				7FD593522318F250009EC4C0 /* RecentTableBooking.swift in Sources */,
+				7FD593502318F1EF009EC4C0 /* RecentOrder.swift in Sources */,
+				7F521188231FC94F0078641D /* AllRecentOrderController.swift in Sources */,
+				7F52118C23201D580078641D /* AllRecentTableBookingController.swift in Sources */,
+				7F52117C231E79560078641D /* NotificationTableViewCell.swift in Sources */,
+				7FE40EFC231582460029A5C5 /* Error.swift in Sources */,
+				7FC27DB52326692E00E84093 /* OrderApi.swift in Sources */,
+				7FEC574A2313ED7C008E9F5B /* User.swift in Sources */,
+				7FB00C75232BAB1000CC9F26 /* BookingApi.swift in Sources */,
+				7F0A96DC2316E29400761109 /* SidebarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +591,11 @@
 		};
 		7FFE4BF9230EA54100F42FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58762D172815E9AA5E677669 /* Pods-themustang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = themustang/themustangDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H98ARSHBCL;
 				INFOPLIST_FILE = themustang/Info.plist;
@@ -289,8 +603,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.ashikchalise.themustang;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = np.com.webandapp.themustang;
+				PRODUCT_NAME = "The Mustang";
+				SWIFT_OBJC_BRIDGING_HEADER = "themustang/themustang-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +614,10 @@
 		};
 		7FFE4BFA230EA54100F42FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537C04C244BF8A3F9A3D5650 /* Pods-themustang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H98ARSHBCL;
 				INFOPLIST_FILE = themustang/Info.plist;
@@ -307,8 +625,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.ashikchalise.themustang;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = np.com.webandapp.themustang;
+				PRODUCT_NAME = "The Mustang";
+				SWIFT_OBJC_BRIDGING_HEADER = "themustang/themustang-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
